@@ -1,0 +1,6 @@
+-- database: c:\Users\vasse\OneDrive\Desktop\python lvl3\wine_project\winequality-red.db
+
+SELECT * FROM "table-name";
+SELECT quality, fixed acidity FROM red_wine
+ORDER BY RANDOM()
+LIMIT 1;
